@@ -47,4 +47,3 @@ function botResponse(userMessage) {
         addMessageToChatBox(response, 'bot');
     }, 1000);
 }
-
