@@ -25,7 +25,7 @@ function addMessageToChatBox(message, sender) {
 }
 
 async function postMessage(message) {
-    const response = await fetch('https://helpdesk-sm87m41dl-stdw-2009s-projects.vercel.app/api/messages', {
+    const response = await fetch('https://<jouw-vercel-app>.vercel.app/api/messages', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
